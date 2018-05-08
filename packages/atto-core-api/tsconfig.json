@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir":"./src",
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": false,
+    "importHelpers": false,
+    "noImplicitUseStrict": true
+  },
+  "files": [
+    "ts/index.ts",
+    "ts/io.ts",
+    "ts/user.ts",
+    "ts/auth.ts",
+  ]
+}
