@@ -1,4 +1,4 @@
-import {IHttpConnection, IAuthService} from 'atto-core-api';
+import {IHttpConnection, IAuthService} from 'atto.core.api';
 import AuthService from './service';
 import Repository from './repository';
 

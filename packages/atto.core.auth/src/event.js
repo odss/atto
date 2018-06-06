@@ -1,4 +1,4 @@
-import {AuthEvent, UserEvent, IAuthListener, IUserListener} from 'atto-core-api';
+import {AuthEvent, UserEvent, IAuthListener, IUserListener} from 'atto.core.api';
 
 export default class EventDispatcher{
     constructor(ctx) {

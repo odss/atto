@@ -1,4 +1,4 @@
-import {IHttpConnection} from 'atto-core-api';
+import {IHttpConnection} from 'atto.core.api';
 import * as cdi from 'odss.cdi/decorators';
 
 
@@ -33,9 +33,9 @@ export class ViewsApp{
                 query: 'SELECT * FROM atto.pages ORDER BY sort LIMIT 5',
                 params: null
             }),
-            headers: new Headers({
+            headers: {
                 'Content-Type': 'application/json'
-            })
+            }
         }
         const response =  await this._http.post('/api/source/query', params);
         return response.data;

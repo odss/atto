@@ -1,4 +1,4 @@
-import {AuthEvent, UserEvent} from 'atto-core-api';
+import {AuthEvent, UserEvent} from 'atto.core.api';
 import {createUser} from './domain';
 
 export default class UserService{

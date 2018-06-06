@@ -1,4 +1,4 @@
-import {IHttpConnection} from 'atto-core-api';
+import {IHttpConnection} from 'atto.core.api';
 import * as cdi from 'odss.cdi/decorators';
 
 

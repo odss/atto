@@ -1,11 +1,11 @@
-import {IHttpConnection} from 'atto-core-api'
+import {IHttpConnection} from 'atto.core.api'
 
 
 class HttpConnection{
     constructor(baseUrl){
         this.baseUrl = baseUrl;
     }
-    async get(url, params={}) {        
+    async get(url, params={}) {
         return await this.send(url, 'GET', params);
     }
     /**
@@ -28,7 +28,7 @@ class HttpConnection{
     }
 
     async put(url, params={}){
-        return await this.send(url, 'PUT', params);    
+        return await this.send(url, 'PUT', params);
     }
     async send(url, method, params={}){
         if(url[0] == '/'){

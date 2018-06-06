@@ -1,4 +1,4 @@
-import {IHttpConnection, IAuthService, IAuthListener, AuthEvent} from 'atto-core-api';
+import {IHttpConnection, IAuthService, IAuthListener, AuthEvent} from 'atto.core.api';
 
 import * as cdi from 'odss.cdi/decorators';
 

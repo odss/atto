@@ -1,4 +1,4 @@
-import {IAuthService, BasicCredential} from 'atto-core-api/auth';
+import {IAuthService, BasicCredential} from 'atto.core.api/auth';
 import * as cdi from 'odss.cdi/decorators';
 import CSS from './main.scss';
 import UI from './ui';
